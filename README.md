@@ -7,5 +7,5 @@ Windows
 
 ```
 $ cd $env:USERPROFILE\AppData\Local
-$ git clone git@github.com:lmedinam/nvim.git
+$ git clone git@github.com:lmedinam/nvim-config.git nvim
 ```
