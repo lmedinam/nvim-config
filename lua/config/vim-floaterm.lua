@@ -1,3 +1,6 @@
+vim.g.floaterm_width = 0.9
+vim.g.floaterm_height = 0.9
+
 vim.cmd("nnoremap   <silent>   <F7>    :FloatermNew<CR>")
 vim.cmd("tnoremap   <silent>   <F7>    <C-\\><C-n>:FloatermNew<CR>")
 vim.cmd("nnoremap   <silent>   <F8>    :FloatermPrev<CR>")
