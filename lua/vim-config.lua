@@ -68,3 +68,6 @@ vim.opt.scrolloff = 10
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+
+-- Disable formatting capability for LSP clients
+vim.lsp.handlers["textDocument/formatting"] = function() end
