@@ -11,8 +11,5 @@ return {
 				null_ls.builtins.formatting.prettier,
 			},
 		})
-
-		vim.keymap.set("n", "<leader>fm", vim.lsp.buf.format, {})
-		vim.keymap.set("v", "<leader>fm", vim.lsp.buf.format, {})
 	end,
 }
