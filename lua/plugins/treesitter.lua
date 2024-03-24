@@ -1,6 +1,11 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
+	dependencies = {
+		"windwp/nvim-ts-autotag",
+		"HiPhish/rainbow-delimiters.nvim",
+		"nvim-treesitter/nvim-treesitter-context",
+	},
 	config = function()
 		local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
 
@@ -39,6 +44,7 @@ return {
 			},
 			highlight = { enable = true },
 			indent = { enable = true },
+			autotag = { enable = true },
 		})
 	end,
 }
