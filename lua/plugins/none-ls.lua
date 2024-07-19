@@ -22,8 +22,7 @@ return {
 					to_stdin = false,
 					to_temp_file = true,
 				}),
-			},
-			default_timeout = 15000,
+			}
 		})
 	end,
 }
