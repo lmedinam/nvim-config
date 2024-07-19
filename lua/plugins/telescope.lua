@@ -24,6 +24,9 @@ return {
             "node_modules",
             "vendor",
           },
+          preview = {
+            treesitter = false
+          }
         },
         extensions = {
           ["ui-select"] = {
